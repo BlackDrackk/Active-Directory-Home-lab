@@ -19,7 +19,7 @@ It’s time to create our first Domain based on this scheme :
 
 
 - **DC01 configuration :**
-    - Change the IP adress/DC name (if you need)
+    - Change the IP adress/DC name (if you want)
     - Install the **ADDS role**
     - Promote the Windows server to a DC :
         - Create a new forest (new domain named ***domain1.local***)
