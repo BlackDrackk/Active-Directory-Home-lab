@@ -1,3 +1,3 @@
-# Active-Directory-Lab
+# Active-Directory home lab
 
 Purpose : 
