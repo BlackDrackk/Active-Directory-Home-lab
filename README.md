@@ -55,8 +55,8 @@ Now that our domain is populated, it's time to check the health of our AD using 
 ![PingCastlesScan](images/pingcastle.png)
 
 
-
 The ping castle scan is pretty bad, and the domain's risk level is 100/100, which is not good news. Our aim is to reduce this score by reinforcing the AD.
 
-Conclusion
+## Conclusion
+
 By following these steps, you can create an Active Directory Home Lab. This setup will allow you to understand how an AD works, practice offensive techniques and improve your skills in securing an Active Directory environment.
