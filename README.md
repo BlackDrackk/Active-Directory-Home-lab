@@ -15,7 +15,7 @@ First let’s create our first Active Directory Home lab using VMs here I’m go
 
 It’s time to create our first Domain based on this scheme :
 
-![AD_Home_Lab_Topology_Network](images/AD_Home_Lab_Topology_Network)
+![AD_Home_Lab_Topology_Network](images/AD_Home_Lab_Topology_Network.png)
 
 
 - **DC01 configuration :**
