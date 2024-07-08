@@ -8,8 +8,9 @@ First let’s create our first Active Directory Home lab using VMs here I’m go
 
 ### *VM intallation tips :*
 
-- Windows cannot find the Microsoft Liscence : VM settings → Floppy → Unselect “connect at power on” → reboot your VM
-- To install VMware tools : VM settings → Select Floppy → Remove
+*- Windows cannot find the Microsoft Liscence : VM settings → Floppy → Unselect “connect at power on” → reboot your VM*
+
+*- To install VMware tools : VM settings → Select Floppy → Remove*
 
 - # Our First domain :
 
