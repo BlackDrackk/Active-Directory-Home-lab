@@ -15,7 +15,7 @@ First let’s create our first Active Directory Home lab using VMs here I’m go
 
 It’s time to create our first Domain based on this scheme :
 
-![image](https://github.com/owen62/Active-Directory-Home-lab/assets/65536127/7d1bcafb-27bd-4d66-8af8-2c6072af9be1)
+![AD_Home_Lab_Topology_Network](images/AD_Home_Lab_Topology_Network)
 
 
 - **DC01 configuration :**
@@ -43,17 +43,18 @@ Set-ExecutionPolicy bypass
 ```
 
 It can take some time… :
+![Run Badblood](images/badbloodsrunning.png)
 
-![image](https://github.com/owen62/Active-Directory-Home-lab/assets/65536127/1290ffa4-4366-4ebe-aba2-60c3bf9299d1)
 
 And here is the result, with new OUs , groups and users :
 
-![image](https://github.com/owen62/Active-Directory-Home-lab/assets/65536127/0bec4df2-cd97-444f-8a4e-27d1ece57526)
+![Populate the AD](images/population.png)
 
 
 Now that our domain is populated, it's time to check the health of our AD using ping castle. Once installed, run the tool and check the results:
+![PingCastlesScan](images/pingcastle.png)
 
-![image](https://github.com/owen62/Active-Directory-Home-lab/assets/65536127/2ab2c0a3-0351-4fcc-922a-560bab9796aa)
+
 
 The ping castle scan is pretty bad, and the domain's risk level is 100/100, which is not good news. Our aim is to reduce this score by reinforcing the AD.
 
