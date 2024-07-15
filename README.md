@@ -4,7 +4,7 @@
 
 ## Home lab Setup :
 
-First let’s create our first Active Directory Home lab using VMs here I’m going to use the Hypervisor VMware and install 1 Windows Servers VMs (2022 and 2019) and 1 Windows 11 VMs.
+First let’s create our first Active Directory Home lab using VMs; here I’m going to use the Hypervisor VMware and install 1 Windows Servers VMs (2022 and 2019) and 1 Windows 11 VMs.
 
 ### *VM intallation tips :*
 
@@ -36,7 +36,7 @@ Now that our Active Directory is configured, but empty, it's time to fill it in 
 
 BadBlood fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world which is perfect for our lab.
 
-Once the Badblood repository is on your Desktop, we can bypass the execution policy and then run the script :
+Once the Badblood repository is on our Desktop, we can bypass the execution policy and then run the script :
 
 ```powershell
 Set-ExecutionPolicy bypass
