@@ -1,10 +1,10 @@
 # Active-Directory home lab 
 
-*Purpose:* The goal of this project is to establish and configure an Active Directory environment from scratch using virtual machines (VMs), with a focus on securing it using AD hardening techniques, Powershell scripts and tools such as PingCastle.
+*Purpose:* The goal of this project is to establish and configure an Active Directory environment from scratch using virtual machines (VMs), fill this AD wtih new accounts, groups.. and then do some test on it.
 
 ## Home lab Setup :
 
-First let’s create our first Active Directory Home lab using VMs; here I’m going to use the Hypervisor VMware and install 1 Windows Servers VMs (2022 and 2019) and 1 Windows 11 VMs.
+First let’s create our first Active Directory Home lab using VMs; here I’m going to use the Hypervisor VMware and install 1 Windows Servers 2022 VM (Domain Controller) and 1 Windows 11 VM (Workstation).
 
 ### *VM intallation tips :*
 
@@ -17,7 +17,6 @@ First let’s create our first Active Directory Home lab using VMs; here I’m g
 It’s time to create our first Domain based on this scheme :
 
 ![AD_Home_Lab_Topology_Network](images/AD_Home_Lab_Topology_Network.png)
-
 
 - **DC01 configuration :**
     - Change the IP adress/DC name (if you want)
