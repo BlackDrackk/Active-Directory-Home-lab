@@ -4,7 +4,7 @@
 
 ## Home lab Setup :
 
-First let’s create our first Active Directory Home lab using VMs; here I’m going to use the Hypervisor VMware and install 1 Windows Servers 2022 VM (Domain Controller) and 1 Windows 11 VM (Workstation).
+First let’s create our first Active Directory Home lab using VMs; here I’m going to use the Hypervisor VMware and install 1 Windows Server 2022 VM (Domain Controller) and 1 Windows 11 VM (Workstation).
 
 ### *VM intallation tips :*
 
