@@ -32,7 +32,7 @@ It’s time to create our first Domain based on this scheme :
      
 - # Populate our Active directory :
 
-Now our active directory is setup, but it's empty, its time to populate our AD using a tool named Badblood : https://github.com/davidprowe/BadBlood?tab=readme-ov-file
+Now that our Active Directory is configured, but empty, it's time to fill it in using a tool called Badblood : https://github.com/davidprowe/BadBlood?tab=readme-ov-file
 
 BadBlood fills a Microsoft Active Directory Domain with a structure and thousands of objects. The output of the tool is a domain similar to a domain in the real world which is perfect for our lab.
 
